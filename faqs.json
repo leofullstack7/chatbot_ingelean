@@ -1,0 +1,110 @@
+[
+  {
+    "pregunta": "¿Qué servicios ofrecen ustedes?",
+    "respuesta": "Ofrecemos automatización de procesos industriales, desarrollo de hardware y software personalizado, integración de sistemas, visión artificial, control de accesos, monitoreo en tiempo real, análisis de datos, telemetría, y soluciones para industria 4.0. Todo adaptado a las necesidades de tu empresa."
+  },
+  {
+    "pregunta": "¿Me pueden ayudar a automatizar mi empresa?",
+    "respuesta": "Claro que sí. Hacemos un diagnóstico de tus procesos actuales y diseñamos soluciones a la medida para mejorar eficiencia, reducir tiempos y eliminar tareas repetitivas o manuales."
+  },
+  {
+    "pregunta": "¿Cuánto cuesta un proyecto con ustedes?",
+    "respuesta": "Depende del tipo de proyecto. Hacemos una cotización personalizada según lo que necesites automatizar o desarrollar. Puedes contarnos tu caso y te damos una estimación sin compromiso."
+  },
+  {
+    "pregunta": "¿Pueden venir a ver mi empresa?",
+    "respuesta": "Sí, realizamos visitas técnicas dentro del Eje Cafetero y otras regiones. También ofrecemos asesorías virtuales iniciales para entender tu caso antes de programar una visita."
+  },
+  {
+    "pregunta": "¿Pueden hacer software a la medida?",
+    "respuesta": "Sí. Diseñamos software personalizado para empresas, desde aplicaciones en la nube hasta sistemas para controlar procesos internos, todo adaptado a tus requerimientos."
+  },
+  {
+    "pregunta": "¿Ustedes venden tarjetas o sistemas de acceso?",
+    "respuesta": "Sí. Tenemos soluciones completas para control de acceso con tarjetas RFID, NFC, lectura de placas, QR y sistemas inteligentes para entradas y parqueaderos."
+  },
+  {
+    "pregunta": "¿Pueden conectarse con mi sistema actual?",
+    "respuesta": "Sí. Nuestros desarrollos están diseñados para integrarse con sistemas que ya tengas: sensores, software, bases de datos, SCADA, ERPs u otros."
+  },
+  {
+    "pregunta": "¿Pueden ayudarme con cámaras o sensores?",
+    "respuesta": "Sí. Instalamos y programamos sensores industriales, cámaras con inteligencia artificial, sistemas de visión por computador y más."
+  },
+  {
+    "pregunta": "¿Qué es un sistema embebido?",
+    "respuesta": "Es un pequeño computador que se programa para realizar tareas específicas, como leer sensores, controlar equipos o enviar datos. Nosotros los diseñamos a medida."
+  },
+  {
+    "pregunta": "¿Pueden hacer algo para controlar máquinas a distancia?",
+    "respuesta": "Sí. Creamos sistemas que permiten monitorear y controlar máquinas desde cualquier lugar, usando internet y plataformas seguras."
+  },
+  {
+    "pregunta": "¿Hacen cosas con inteligencia artificial?",
+    "respuesta": "Sí. Usamos IA para visión por computador, análisis de datos, reconocimiento de patrones, predicción de fallas, entre otros."
+  },
+  {
+    "pregunta": "¿Pueden hacer que los datos lleguen al celular o a la nube?",
+    "respuesta": "Sí. Diseñamos soluciones para que veas información en tiempo real desde tu celular, computador o cualquier navegador web."
+  },
+  {
+    "pregunta": "¿Trabajan solo en Pereira o en más partes?",
+    "respuesta": "Atendemos todo Colombia y también proyectos internacionales. Tenemos experiencia en Bogotá, Medellín, Cali, Cartagena y hasta en España y Paraguay."
+  },
+  {
+    "pregunta": "¿Cuánto se demoran en entregar un proyecto?",
+    "respuesta": "Depende del tamaño, pero damos avances constantes. Un sistema básico puede tardar una o dos semanas. Uno más complejo, de 1 a 2 meses."
+  },
+  {
+    "pregunta": "¿Pueden ayudarme si no sé nada de tecnología?",
+    "respuesta": "¡Claro que sí! Nuestro equipo te guía paso a paso y te explica todo con palabras claras. No necesitas saber de programación ni de electrónica."
+  },
+  {
+    "pregunta": "¿Pueden enseñarme a usar lo que me instalan?",
+    "respuesta": "Sí. Siempre incluimos capacitación al final del proyecto y te damos acompañamiento hasta que estés cómodo usando la solución."
+  },
+  {
+    "pregunta": "¿Me pueden hacer una cotización gratis?",
+    "respuesta": "Sí, la asesoría inicial es sin costo. Nos cuentas lo que necesitas y te damos una propuesta personalizada."
+  },
+  {
+    "pregunta": "¿Hacen cosas para colegios o universidades?",
+    "respuesta": "Sí. Hemos trabajado con instituciones educativas para automatizar accesos, laboratorios, simuladores y más."
+  },
+  {
+    "pregunta": "¿Qué tan confiables son sus soluciones?",
+    "respuesta": "Nuestros sistemas son robustos, industriales y probados. Trabajamos con estándares altos de calidad, seguridad y durabilidad."
+  },
+  {
+    "pregunta": "¿Cómo los contacto?",
+    "respuesta": "Puedes escribirnos por WhatsApp, correo o redes sociales. También puedes agendar una cita técnica desde nuestra web o llamarnos directamente."
+  },
+  {
+    "pregunta": "¿Tienen algún portafolio o casos de éxito?",
+    "respuesta": "Sí. Puedes ver algunos de nuestros proyectos en el brochure, redes sociales o pedirnos ejemplos según tu tipo de empresa."
+  },
+  {
+    "pregunta": "¿Ustedes fabrican sus propias tarjetas o placas?",
+    "respuesta": "Sí. Diseñamos y fabricamos tarjetas electrónicas personalizadas (PCBs) con funciones específicas según cada cliente."
+  },
+  {
+    "pregunta": "¿Qué puedo hacer si tengo una idea y quiero desarrollarla?",
+    "respuesta": "¡Cuéntanos! Nos encantan los retos. Podemos ayudarte desde la concepción de la idea hasta el prototipo funcional y la solución final."
+  },
+  {
+    "pregunta": "¿Hacen cosas para agricultura o ganadería?",
+    "respuesta": "Sí. Tenemos soluciones de monitoreo, automatización de riego, control de variables ambientales, y trazabilidad, entre otras."
+  },
+  {
+    "pregunta": "¿Qué necesito para empezar con ustedes?",
+    "respuesta": "Solo cuéntanos qué problema tienes o qué idea quieres hacer realidad. Nosotros nos encargamos del resto: diagnóstico, propuesta y ejecución."
+  }
+  {
+    "pregunta": "¿Qué es Beaver Time?",
+    "respuesta": "Beaver Time es una solución integral de IngeLean para automatizar la gestión de nómina, asistencia y talento humano, reduciendo errores, asegurando trazabilidad y mejorando la eficiencia en tiempo real."
+  }
+  {
+    "pregunta": "¿Cualés son los beneficios de Beaver Time?",
+    "respuesta": "1. Liquidación de nómina automática y sin errores 2. Trazabilidad y control en tiempo real 3.Automatización del talento humano"
+  }
+]
