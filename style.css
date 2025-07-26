@@ -119,3 +119,52 @@ body {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* ---------- banner ---------- */
+
+.hero {
+  text-align: center;
+  padding: 6rem 1rem 8rem 1rem;
+  background: linear-gradient(to bottom right, #f47a2c, #f98b3d);
+  color: white;
+  position: relative;
+  clip-path: ellipse(150% 100% at 50% 0%);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.5;
+}
+
+.botones-hero {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.botones-hero .btn-secundario {
+  padding: 1rem 2rem;
+  background: white;
+  color: #f47a2c;
+  border: 2px solid transparent; /* AÑADIR */
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botones-hero .btn-secundario:hover {
+  background: #f47a2c;
+  color: white;
+  border: 2px solid white;
+}
