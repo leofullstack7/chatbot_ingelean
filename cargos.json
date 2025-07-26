@@ -1,0 +1,63 @@
+[
+  {
+    "nombre": "Harold Herrera",
+    "cargo": "Gerente",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573058265385"
+  },
+  {
+    "nombre": "Juan Ocampo",
+    "cargo": "Director de proyectos",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573160446781"
+  },
+  {
+    "nombre": "Johan Riascos",
+    "cargo": "Desarrollador de hardware",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573122276935"
+  },
+  {
+    "nombre": "Eliana Bedoya",
+    "cargo": "Administrativa",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573111939384"
+  },
+  {
+    "nombre": "Camilo Espitia",
+    "cargo": "Desarrollador de software",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573153187025"
+  },
+  {
+    "nombre": "José Heredia",
+    "cargo": "Mensajero",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573052182799"
+  },
+  {
+    "nombre": "Stefanía Agudelo",
+    "cargo": "Técnico en automatización",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573003856196"
+  },
+  {
+    "nombre": "Peter Hernández",
+    "cargo": "Mecánico industrial - mensajero",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573170082446"
+  },
+  {
+    "nombre": "Santiago Sierra",
+    "cargo": "Auxiliar de desarrollo",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573151889746"
+  },
+  {
+    "nombre": "Carolina Bedoya",
+    "cargo": "Marketing y publicidad",
+    "empresa": "Ingelean S.A.S",
+    "contacto": "https://wa.me/573141019195"
+  }
+]
+
