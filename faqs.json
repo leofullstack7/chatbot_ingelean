@@ -99,4 +99,12 @@
     "pregunta": "¿Qué necesito para empezar con ustedes?",
     "respuesta": "Solo cuéntanos qué problema tienes o qué idea quieres hacer realidad. Nosotros nos encargamos del resto: diagnóstico, propuesta y ejecución."
   }
+  {
+    "pregunta": "¿Qué es Beaver Time?",
+    "respuesta": "Beaver Time es una solución integral de IngeLean para automatizar la gestión de nómina, asistencia y talento humano, reduciendo errores, asegurando trazabilidad y mejorando la eficiencia en tiempo real."
+  }
+  {
+    "pregunta": "¿Cualés son los beneficios de Beaver Time?",
+    "respuesta": "1. Liquidación de nómina automática y sin errores 2. Trazabilidad y control en tiempo real 3.Automatización del talento humano"
+  }
 ]
