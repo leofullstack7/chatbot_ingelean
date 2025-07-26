@@ -18,11 +18,20 @@ if (!sessionId) {
 
 const asesores = ["Sofía", "Andrés", "Camila", "Daniel", "Valentina", "Carlos", "Laura", "Felipe", "Juliana", "Mateo"];
 
-// Función para mostrar mensajes
+// ✅ Función para mostrar mensajes (con conversión de links)
 function appendMessage(sender, text) {
   const msg = document.createElement("div");
   msg.className = sender === "user" ? "user-message" : "bot-message";
-  msg.textContent = text;
+
+  if (sender === "bot") {
+    const linkified = text.replace(/(https?:\/\/[^\s]+)/g, (url) => {
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+    });
+    msg.innerHTML = linkified;
+  } else {
+    msg.textContent = text;
+  }
+
   chatWindow.appendChild(msg);
   chatWindow.scrollTop = chatWindow.scrollHeight;
   return msg;
@@ -47,7 +56,7 @@ burbuja.addEventListener("click", () => {
     setTimeout(() => {
       appendMessage("bot", "¿Cuál es tu nombre?");
       esperandoNombre = true;
-    }, 1000); // breve pausa para naturalidad
+    }, 1000);
 
     sessionStorage.setItem("bienvenidaMostrada", "true");
   }
@@ -94,7 +103,11 @@ chatForm.addEventListener("submit", async (e) => {
     if (!response.ok) throw new Error("Error del servidor");
 
     const data = await response.json();
-    loadingMessage.textContent = data.respuesta || "Lo siento, no entendí tu pregunta.";
+    loadingMessage.innerHTML = data.respuesta
+      ? data.respuesta.replace(/(https?:\/\/[^\s]+)/g, (url) => {
+          return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+        })
+      : "Lo siento, no entendí tu pregunta.";
   } catch (error) {
     loadingMessage.textContent = "Error al conectar con el asistente.";
     console.error(error);
