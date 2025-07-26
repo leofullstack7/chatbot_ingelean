@@ -46,3 +46,32 @@
     </div>
   </section>
 
+
+  <!-- Chat bot -->
+
+   <!-- Botón flotante del bot -->
+  <div id="bot-burbuja" class="bot-burbuja">🤖</div>
+
+
+  <!-- Modal del bot -->
+  <div id="bot-modal" class="bot-modal">
+    <div class="chat-container">
+      <div class="chat-header">
+        <strong>🤖 Asistente IngeLean</strong>
+        <span class="cerrar-modal" onclick="cerrarBot()">×</span>
+      </div>
+      <div class="chat-window" id="chat-window">
+
+      </div>
+      <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Escribe tu pregunta..." autocomplete="off" required />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+
+   <script src="./script.js"></script>
+
+</body>
+</html>

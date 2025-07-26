@@ -168,3 +168,140 @@ body {
   color: white;
   border: 2px solid white;
 }
+
+
+/* ---------- CHATBOT BURBUJA ---------- */
+
+.bot-burbuja {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s;
+}
+
+.bot-burbuja:hover {
+  background: #128C7E;
+}
+
+/* ---------- CHATBOT MODAL ---------- */
+
+.bot-modal {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 320px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: none;
+  z-index: 10000;
+}
+
+.chat-container {
+  background: #ffffff;
+  border: 2px solid #6a0dad;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-header {
+  background: #6a0dad;
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-window {
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #f9f9f9;
+}
+
+.user-message,
+.bot-message {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 20px;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.user-message {
+  background: #d1e7ff;
+  align-self: flex-end;
+}
+
+.bot-message {
+  background: #e7d6ff;
+  align-self: flex-start;
+}
+
+form {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #580aa4;
+}
+
+/* Estilo del input mientras se espera el nombre */
+.input-nombre {
+  border: 2px solid #ff4d4d;
+  background-color: #fff5f5;
+  color: #333;
+  animation: vibrar 0.2s ease-in-out infinite alternate;
+}
+
+/* Animación leve para indicar espera */
+@keyframes vibrar {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(2px); }
+}
+
+.chat-window:empty::before {
+  content: "";
+  display: block;
+  min-height: 10px; /* ocupa algo de espacio para que no se colapse */
+}
